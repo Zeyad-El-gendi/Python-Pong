@@ -76,7 +76,10 @@ pen2.goto(378,0)
 pen2.write("P1", align="center", font=("Courier",12,"bold") )
 #keybord binding
 window.listen()
-
+#window.onkeypress(paddle_left_up, "w") 
+#window.onkeypress(paddle_left_down, "s")
+window.onkeypress(paddle_right_up, "Up")
+window.onkeypress(paddle_right_down, "Down")
 
 start_time = time.time()
 
